@@ -1,0 +1,40 @@
+table, td, th {
+  border: 4px solid black
+}
+
+table, td, th {
+    border-style: double;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgb(196, 184, 186);
+  width: 40%;
+  text-align: left;
+  font-weight: bold;
+}
+
+th {
+  height: 20px;
+  background-color: rgb(2, 26, 2);
+  color: aquamarine;
+  text-align: center;
+}
+
+.fila1 {
+    background-color: rgb(138, 214, 191);
+}
+.fila2 {
+    background-color: rgb(138, 214, 191);
+}
+.fila3 {
+    background-color: rgb(19, 112, 83);
+}
+.fila4 {
+    background-color: rgb(19, 112, 83);
+    text-align: center;
+}
+.fila5 {
+    background-color: rgb(138, 214, 191);
+    text-align: center;
+}

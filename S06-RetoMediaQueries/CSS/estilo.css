@@ -1,0 +1,9 @@
+@media (max-width: 200px) {    
+    p { color: red;}
+}
+
+@media (min-width: 300px) {
+    p { color: blue;}
+}
+
+p{background-color: rgb(80, 255, 89);}
