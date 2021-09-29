@@ -1,0 +1,22 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 25em;
+    width: 70em;
+    background-color: rgb(145, 163, 145);
+}
+.contenedorCoche {
+    height: 10em;
+    width: 15em;
+}
+.contenedorCoche2 {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+#contenedorTexto {
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

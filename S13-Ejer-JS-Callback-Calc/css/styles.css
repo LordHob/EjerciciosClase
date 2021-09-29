@@ -1,0 +1,60 @@
+
+
+.contenedorGeneral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30em;
+    width: 20em;
+
+    background-color: beige;
+}
+
+.contenedorResultado {
+    height: 2em;
+    background-color: darkolivegreen;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.contenedorOperaciones {
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorTeclas {
+    height: 20em;
+    width: 20em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.contenedorSuma {
+    width: 4.5em;
+}
+
+.tecla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightgrey;
+    font-size: 2em;
+
+    border: solid 0.1em black;
+
+    transition: 0.2s;
+}
+
+.tecla:hover {
+    background-color: grey;
+    transition: 0.2s;
+    cursor: pointer;
+}

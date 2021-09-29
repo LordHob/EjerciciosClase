@@ -1,0 +1,72 @@
+
+
+.contenedorGeneral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 30em;
+    width: 20em;
+
+    background-color: grey;
+}
+
+.contenedorResultado{
+    height: 1em;
+    width: 5em;
+    justify-content: center;
+    background-color: rgb(0, 109, 128);
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedorOperaciones{
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorTeclas{
+    height: 20em;
+    width: 20em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.contenedorSuma{
+    width: 3em;
+    
+}
+
+.contenedorResta{
+    width: 3em;
+    
+}
+
+.contenedorMultiplicacion{
+    width: 3em;
+    
+}
+
+.tecla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(95, 141, 95);
+    font-size: 2em;
+    border: solid 0.1em black;
+
+    transition: 0.2s
+}
+
+.tacla:hover{
+    background-color: blueviolet;
+    transition: 0.2s;
+    cursor: pointer;
+}

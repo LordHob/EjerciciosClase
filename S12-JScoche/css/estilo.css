@@ -1,0 +1,12 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20em;
+    width: 20em;
+}
+.contenedorCoche{
+    height: 50em;
+    width: 50em;
+}
