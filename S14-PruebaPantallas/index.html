@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejer - Cambio de pantallas</title>
+    <link href="/css/estilo.css" rel="stylesheet">
+</head>
+<body>
+    <section id="1">
+        <div class="diapositiva1">
+            <img onClick='cambiarPantalla("2")' src="img/pocoyo.jpg" alt="Pocoyo">
+        </div>
+    </section>
+    <section id="2" style="display:none">
+        <div class="diapositiva2">
+            <img onClick='cambiarPantalla("3")' src="img/goku.jpg" alt="Goku">
+        </div>
+    </section>
+    <section id="3" style="display:none">
+        <div class="diapositiva3"><img onClick='cambiarPantalla("4")' src="img/pikachu.png" alt="Pikachu">
+        </div>
+    </section>
+    <section id="4" style="display:none">
+        <div class="diapositiva4">
+            <img onClick='cambiarPantalla("1")' src="img/Doraemon.png" alt="Doraemon">
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
