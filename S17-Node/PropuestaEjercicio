@@ -1,0 +1,8 @@
+Ejercicio para mañana:
+
+Se pide generar un proyecto node, con un archivo principal llamado index.js, que IMPORTE funciones provenientes de otro archivo javascript contenido en el mismo proyecto. Una vez ejecute esas funciones, se mostrará el contenido por console.log,
+
+Recordad el comando de ejecución node index.js
+
+Pista = Los console.log estarán situados en los correspondientes archivos de funciones javascript, no en el archivo index.js
+
