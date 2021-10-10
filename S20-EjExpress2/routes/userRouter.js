@@ -37,7 +37,4 @@ userRouter.get('/perfil', async (req, res) => {
 });
 
 
-
-
-
 module.exports = userRouter;
