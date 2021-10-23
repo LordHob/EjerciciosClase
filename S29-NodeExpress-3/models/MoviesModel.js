@@ -7,6 +7,7 @@ MoviesModel.findAll = () => db;
 MoviesModel.findById = (id) => db.find(movie => movie.id == id);
 
 MoviesModel.post = (newMovie) => {
+    //let movies = db.filter(movie => movie.id != newMovie.id);
     db.push(newMovie);
     return newMovie;
 }
