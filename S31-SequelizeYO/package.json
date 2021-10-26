@@ -1,0 +1,16 @@
+{
+  "name": "s31-sequelizeyo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Giner",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.2",
+    "sequelize": "^6.8.0",
+    "sequelize-cli": "^6.2.0"
+  }
+}
